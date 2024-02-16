@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "tarferss_minecraft_improvement:block/petrified_wood_planks",
+    "top": "tarferss_minecraft_improvement:block/petrified_wood_planks",
+    "side": "tarferss_minecraft_improvement:block/petrified_wood_planks"
+  },
+  "render_type": "solid"
+}

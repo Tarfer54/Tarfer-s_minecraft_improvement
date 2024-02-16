@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tarferss_minecraft_improvement:block/petrified_wood_slab"
+    },
+    "type=top": {
+      "model": "tarferss_minecraft_improvement:block/petrified_wood_slab_top"
+    },
+    "type=double": {
+      "model": "tarferss_minecraft_improvement:block/petrified_wood_slab_full"
+    }
+  }
+}

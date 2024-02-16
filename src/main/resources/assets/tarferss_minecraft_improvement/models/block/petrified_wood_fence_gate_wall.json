@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "tarferss_minecraft_improvement:block/petrified_wood_planks"
+  },
+  "render_type": "solid"
+}

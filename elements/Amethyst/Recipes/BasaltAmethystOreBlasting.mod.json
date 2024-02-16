@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "amethyst",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.05,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:AmethystBasaltOre"
+    },
+    "blastingReturnStack": {
+      "value": "Items.AMETHYST_SHARD"
+    },
+    "name": "basalt_amethyst_ore_blasting",
+    "namespace": "mod"
+  }
+}

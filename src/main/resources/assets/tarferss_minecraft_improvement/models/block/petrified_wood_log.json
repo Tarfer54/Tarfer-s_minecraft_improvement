@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tarferss_minecraft_improvement:block/petrified_wood_log_top",
+    "up": "tarferss_minecraft_improvement:block/petrified_wood_log_top",
+    "north": "tarferss_minecraft_improvement:block/petrified_wood_log_side",
+    "east": "tarferss_minecraft_improvement:block/petrified_wood_log_side",
+    "south": "tarferss_minecraft_improvement:block/petrified_wood_log_side",
+    "west": "tarferss_minecraft_improvement:block/petrified_wood_log_side",
+    "particle": "tarferss_minecraft_improvement:block/petrified_wood_log_top"
+  },
+  "render_type": "solid"
+}

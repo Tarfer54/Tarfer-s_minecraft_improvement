@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "ruby",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.85,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RubyDeepslateOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Ruby"
+    },
+    "name": "deepslate_ruby_ore_blasting",
+    "namespace": "mod"
+  }
+}

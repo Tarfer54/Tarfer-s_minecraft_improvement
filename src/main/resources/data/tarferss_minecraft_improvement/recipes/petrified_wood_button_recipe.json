@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "tarferss_minecraft_improvement:petrified_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "tarferss_minecraft_improvement:petrified_wood_button",
+    "count": 1
+  }
+}

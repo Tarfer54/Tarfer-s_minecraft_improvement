@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "tarferss_minecraft_improvement:ruby_deepslate_ore",
+  "step": "underground_ores"
+}

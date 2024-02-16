@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "tarferss_minecraft_improvement:ruby"
+    }
+  },
+  "result": {
+    "item": "tarferss_minecraft_improvement:ruby_armor_armor_boots",
+    "count": 1
+  }
+}

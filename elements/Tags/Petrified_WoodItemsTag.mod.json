@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Petrified_WoodWood"
+      },
+      {
+        "value": "CUSTOM:Petrified_WoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "petrified_wood_log",
+    "namespace": "forge"
+  }
+}

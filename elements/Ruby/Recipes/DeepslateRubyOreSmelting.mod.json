@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "ruby",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.85,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RubyOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Ruby"
+    },
+    "name": "deepslate_ruby_ore_smelting",
+    "namespace": "mod"
+  }
+}

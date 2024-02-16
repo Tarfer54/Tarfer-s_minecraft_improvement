@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ruby",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tarferss_minecraft_improvement:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "tarferss_minecraft_improvement:ruby",
+    "count": 9
+  }
+}

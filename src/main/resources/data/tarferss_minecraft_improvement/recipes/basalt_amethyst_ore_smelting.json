@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "amethyst",
+  "category": "misc",
+  "experience": 1.05,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tarferss_minecraft_improvement:amethyst_basalt_ore"
+  },
+  "result": "minecraft:amethyst_shard"
+}

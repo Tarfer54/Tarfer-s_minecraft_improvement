@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "amethyst",
+  "category": "misc",
+  "experience": 1.05,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "tarferss_minecraft_improvement:amethyst_calcite_ore"
+  },
+  "result": "minecraft:amethyst_shard"
+}

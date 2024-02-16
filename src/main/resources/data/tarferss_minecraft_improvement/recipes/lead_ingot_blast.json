@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "lead",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "tarferss_minecraft_improvement:lead_ore"
+  },
+  "result": "tarferss_minecraft_improvement:lead_ingot"
+}

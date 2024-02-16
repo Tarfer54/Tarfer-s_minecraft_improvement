@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "aluminium",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.85,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:BauxiteDeepslateOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:AluminiumIngot"
+    },
+    "name": "bauxite_deepslate_ore_blasting",
+    "namespace": "mod"
+  }
+}

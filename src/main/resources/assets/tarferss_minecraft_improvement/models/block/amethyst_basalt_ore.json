@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tarferss_minecraft_improvement:block/basalt_amethyst_ore",
+    "particle": "tarferss_minecraft_improvement:block/basalt_amethyst_ore"
+  },
+  "render_type": "solid"
+}

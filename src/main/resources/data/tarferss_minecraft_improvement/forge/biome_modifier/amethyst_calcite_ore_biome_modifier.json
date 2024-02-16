@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "tarferss_minecraft_improvement:amethyst_calcite_ore",
+  "step": "underground_ores"
+}

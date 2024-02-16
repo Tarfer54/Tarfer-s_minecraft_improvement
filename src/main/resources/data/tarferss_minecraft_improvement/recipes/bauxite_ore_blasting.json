@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "aluminium",
+  "category": "misc",
+  "experience": 0.85,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "tarferss_minecraft_improvement:bauxite_ore"
+  },
+  "result": "tarferss_minecraft_improvement:aluminium_ingot"
+}

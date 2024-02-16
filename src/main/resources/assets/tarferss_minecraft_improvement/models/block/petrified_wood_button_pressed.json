@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "tarferss_minecraft_improvement:block/petrified_wood_planks"
+  },
+  "render_type": "solid"
+}

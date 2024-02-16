@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "tarferss_minecraft_improvement:block/petrified_wood_planks",
+    "particle": "tarferss_minecraft_improvement:block/petrified_wood_planks"
+  },
+  "render_type": "solid"
+}

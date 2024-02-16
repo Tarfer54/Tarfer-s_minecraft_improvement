@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tarferss_minecraft_improvement:item/lead_axe"
+  }
+}

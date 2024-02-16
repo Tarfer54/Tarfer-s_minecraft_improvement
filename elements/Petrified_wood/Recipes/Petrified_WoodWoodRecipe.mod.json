@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Petrified_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Petrified_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Petrified_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Petrified_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Petrified_WoodWood"
+    },
+    "name": "petrified_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}
