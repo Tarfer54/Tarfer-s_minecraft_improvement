@@ -29,6 +29,14 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModTabs;
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModMobEffects;
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModItems;
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModFluids;
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModFluidTypes;
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModEnchantments;
+import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -47,7 +55,12 @@ public class TarferssMinecraftImprovementMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		TarferssMinecraftImprovementModBlocks.REGISTRY.register(bus);
+
+		TarferssMinecraftImprovementModItems.REGISTRY.register(bus);
+
 		TarferssMinecraftImprovementModEnchantments.REGISTRY.register(bus);
+		TarferssMinecraftImprovementModTabs.REGISTRY.register(bus);
 
 		TarferssMinecraftImprovementModMobEffects.REGISTRY.register(bus);
 

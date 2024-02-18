@@ -12,7 +12,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/RubyItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "RubyOre",
@@ -23,15 +24,16 @@
       "registry_name": "ruby_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/ruby_ore_biome_modifier.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/ruby_ore.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyOreBlock.java",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/ruby_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/ruby_ore_biome_modifier.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_ore.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_ore.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Blocks"
     },
     {
       "name": "RubyBlock",
@@ -42,12 +44,13 @@
       "registry_name": "ruby_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_block.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_block.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyBlockBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_block.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_block.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_block.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Blocks"
     },
     {
       "name": "RubyOreBlockRecipe",
@@ -60,7 +63,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_ore_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyBlockOreRecipe",
@@ -73,7 +77,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_block_ore_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyOreSmelting",
@@ -86,7 +91,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyOreBlasting",
@@ -99,7 +105,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_ore_blasting.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyDeepslateOre",
@@ -110,15 +117,16 @@
       "registry_name": "ruby_deepslate_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_deepslate_ore.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyDeepslateOreBlock.java",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/ruby_deepslate_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_deepslate_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/ruby_deepslate_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_deepslate_ore.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyDeepslateOreBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_deepslate_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/ruby_deepslate_ore_biome_modifier.json"
+          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/ruby_deepslate_ore_biome_modifier.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_deepslate_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/ruby_deepslate_ore.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Blocks"
     },
     {
       "name": "Ruby_toolsPickaxe",
@@ -129,10 +137,11 @@
       "registry_name": "ruby_tools_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_pickaxe.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsPickaxeItem.java"
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsPickaxeItem.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "Ruby_toolsAxe",
@@ -146,7 +155,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsAxeItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_axe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "Ruby_toolsSword",
@@ -157,10 +167,11 @@
       "registry_name": "ruby_tools_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsSwordItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_sword.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_sword.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "Ruby_toolsShovel",
@@ -174,7 +185,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsShovelItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_shovel.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "Ruby_toolsHoe",
@@ -188,7 +200,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Ruby_toolsHoeItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_tools_hoe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "Ruby_toolsPickaxeRecipe",
@@ -201,7 +214,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_tools_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "Ruby_toolsAxeRecipe",
@@ -214,7 +228,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_tools_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "Ruby_toolsSwordRecipe",
@@ -227,7 +242,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_tools_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "Ruby_toolsShovelRecipe",
@@ -240,7 +256,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_tools_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "Ruby_toolsHoeRecipe",
@@ -253,7 +270,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_tools_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "EnchantedGoldenApple",
@@ -266,7 +284,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/enchanted_golden_apple.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "Saddle",
@@ -279,7 +298,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/saddle.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "LeatherHorseArmor",
@@ -292,7 +312,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/leather_horse_armor.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "IronHorseArmor",
@@ -305,7 +326,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/iron_horse_armor.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "GoldHorseArmor",
@@ -318,7 +340,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/gold_horse_armor.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "DiamondHorseArmor",
@@ -331,7 +354,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/diamond_horse_armor.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "Trident",
@@ -344,7 +368,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/trident.json"
         ]
-      }
+      },
+      "path": "~/Old Recipes"
     },
     {
       "name": "DeepslateRubyOreBlasting",
@@ -357,7 +382,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/deepslate_ruby_ore_blasting.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "DeepslateRubyOreSmelting",
@@ -370,7 +396,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/deepslate_ruby_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "AmethystBasaltOre",
@@ -381,15 +408,16 @@
       "registry_name": "amethyst_basalt_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/amethyst_basalt_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/amethyst_basalt_ore.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/AmethystBasaltOreBlock.java",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/amethyst_basalt_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_basalt_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/amethyst_basalt_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/amethyst_basalt_ore_biome_modifier.json"
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/amethyst_basalt_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/amethyst_basalt_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/amethyst_basalt_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/amethyst_basalt_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_basalt_ore.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/AmethystBasaltOreBlock.java"
         ]
-      }
+      },
+      "path": "~/Amethyst/Blocks"
     },
     {
       "name": "AmethystCalciteOre",
@@ -401,14 +429,15 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/AmethystCalciteOreBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/amethyst_calcite_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/amethyst_calcite_ore_biome_modifier.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_calcite_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/amethyst_calcite_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/amethyst_calcite_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/amethyst_calcite_ore.json"
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/amethyst_calcite_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_calcite_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/amethyst_calcite_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/amethyst_calcite_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/amethyst_calcite_ore.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Blocks"
     },
     {
       "name": "Amethyst_toolsPickaxe",
@@ -422,7 +451,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsPickaxeItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "Amethyst_toolsAxe",
@@ -436,7 +466,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsAxeItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_axe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "Amethyst_toolsSword",
@@ -447,10 +478,11 @@
       "registry_name": "amethyst_tools_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsSwordItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_sword.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_sword.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "Amethyst_toolsShovel",
@@ -464,7 +496,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsShovelItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_shovel.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "Amethyst_toolsHoe",
@@ -475,10 +508,11 @@
       "registry_name": "amethyst_tools_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsHoeItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_hoe.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_tools_hoe.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/Amethyst_toolsHoeItem.java"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "Amethyst_toolsPickaxeRecipe",
@@ -491,7 +525,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_tools_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "Amethyst_toolsAxeRecipe",
@@ -504,7 +539,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_tools_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "Amethyst_toolsSwordRecipe",
@@ -517,7 +553,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_tools_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "Amethyst_toolsShovelRecipe",
@@ -530,7 +567,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_tools_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "Amethyst_toolsHoeRecipe",
@@ -543,7 +581,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_tools_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "BasaltAmethystOreSmelting",
@@ -556,7 +595,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/basalt_amethyst_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "BasaltAmethystOreBlasting",
@@ -569,7 +609,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/basalt_amethyst_ore_blasting.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "CalciteAmethystOreBlasting",
@@ -582,7 +623,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/calcite_amethyst_ore_blasting.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "CalciteAmethystOreSmelting",
@@ -595,7 +637,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/calcite_amethyst_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "MediumAmethystBud",
@@ -608,7 +651,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/medium_amethyst_bud.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "LargeAmethystBud",
@@ -621,7 +665,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/large_amethyst_bud.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "AmethystCluster",
@@ -634,7 +679,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_cluster.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "AmethystShard",
@@ -647,7 +693,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_shard.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "AmethystIngot",
@@ -661,7 +708,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AmethystIngotItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_ingot.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "AmethystIngotCraft",
@@ -674,7 +722,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_ingot_craft.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "RubyArmorArmor",
@@ -685,13 +734,14 @@
       "registry_name": "ruby_armor_armor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/RubyArmorArmorItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_armor_armor_chestplate.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_armor_armor_boots.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_armor_armor_leggings.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_armor_armor_helmet.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/RubyArmorArmorItem.java"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_armor_armor_boots.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_armor_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Items"
     },
     {
       "name": "RubyArmorArmorHelmetRecipe",
@@ -704,7 +754,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_armor_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyArmorArmorChestplateRecipe",
@@ -717,7 +768,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_armor_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyArmorArmorLeggingsRecipe",
@@ -730,7 +782,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_armor_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "RubyArmorArmorBootsRecipe",
@@ -743,7 +796,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/ruby_armor_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Ruby/Recipes"
     },
     {
       "name": "AmethystArmor",
@@ -754,13 +808,14 @@
       "registry_name": "amethyst_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_helmet.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_boots.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_chestplate.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AmethystArmorItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_leggings.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_helmet.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_chestplate.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_armor_boots.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Items"
     },
     {
       "name": "AmethystArmorHelmetRecipe",
@@ -773,7 +828,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "AmethystArmorChestplateRecipe",
@@ -786,7 +842,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "AmethystArmorLeggingsRecipe",
@@ -799,7 +856,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "AmethystArmorBootsRecipe",
@@ -812,7 +870,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/amethyst_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Amethyst/Recipes"
     },
     {
       "name": "Incision",
@@ -825,7 +884,8 @@
         "files": [
           "src/main/java/net/mcreator/tarferssminecraftimprovement/enchantment/IncisionEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchants"
     },
     {
       "name": "Bleeding",
@@ -838,7 +898,8 @@
         "files": [
           "src/main/java/net/mcreator/tarferssminecraftimprovement/potion/BleedingMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "BleedingTickActifSurEffet",
@@ -861,7 +922,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures/Effects"
     },
     {
       "name": "IncisionActive",
@@ -880,7 +942,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Procedures/Enchants"
     },
     {
       "name": "IrradiatedLands",
@@ -892,10 +955,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/irradiated_lands_tree.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/biome/irradiated_lands.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/irradiated_lands_tree.json"
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/irradiated_lands_tree.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/biome/irradiated_lands.json"
         ]
-      }
+      },
+      "path": "~/Biomes"
     },
     {
       "name": "Petrified_WoodWood",
@@ -906,12 +970,13 @@
       "registry_name": "petrified_wood_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_wood.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_wood.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodWoodBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_wood.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_wood.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_wood.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodWoodBlock.java"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodLog",
@@ -922,12 +987,13 @@
       "registry_name": "petrified_wood_log",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_log.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_log.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodLogBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_log.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_log.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodPlanks",
@@ -938,12 +1004,13 @@
       "registry_name": "petrified_wood_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodPlanksBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_planks.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_planks.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_planks.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_planks.json"
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodPlanksBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_planks.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodLeaves",
@@ -956,10 +1023,11 @@
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_leaves.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodLeavesBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_leaves.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_leaves.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_leaves.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_leaves.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodStairs",
@@ -970,14 +1038,15 @@
       "registry_name": "petrified_wood_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_stairs.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_stairs.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodStairsBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_stairs.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs_outer.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs_inner.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs_inner.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_stairs.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodSlab",
@@ -988,14 +1057,15 @@
       "registry_name": "petrified_wood_slab",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodSlabBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_slab.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_slab.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab_top.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab_full.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodSlabBlock.java"
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_slab.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_slab.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab_top.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodFence",
@@ -1007,13 +1077,14 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_inventory.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_fence.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_fence.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_post.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodFenceBlock.java"
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_fence.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_fence.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodFenceBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_inventory.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodFenceGate",
@@ -1024,15 +1095,16 @@
       "registry_name": "petrified_wood_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_open.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_fence_gate.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodFenceGateBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_wall.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_fence_gate.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_wall_open.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_wall.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_fence_gate.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodFenceGateBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_open.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodPressurePlate",
@@ -1043,13 +1115,14 @@
       "registry_name": "petrified_wood_pressure_plate",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodPressurePlateBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_pressure_plate.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_pressure_plate_down.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_pressure_plate.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_pressure_plate.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodPressurePlateBlock.java"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_pressure_plate_down.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_pressure_plate.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodButton",
@@ -1061,13 +1134,14 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_button_pressed.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodButtonBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_button.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_button_inventory.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_button.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_button.json"
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodButtonBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_button.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_button_inventory.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_button.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Blocks"
     },
     {
       "name": "Petrified_WoodItemsTag",
@@ -1080,7 +1154,8 @@
         "files": [
           "src/main/resources/data/forge/tags/items/petrified_wood_log.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     },
     {
       "name": "Petrified_WoodWoodRecipe",
@@ -1093,7 +1168,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_wood_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodPlanksRecipe",
@@ -1106,7 +1182,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_planks_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodStairsRecipe",
@@ -1119,7 +1196,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_stairs_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodSlabRecipe",
@@ -1132,7 +1210,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_slab_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodFenceRecipe",
@@ -1145,7 +1224,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_fence_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodFenceGateRecipe",
@@ -1158,7 +1238,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_fence_gate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodPressurePlateRecipe",
@@ -1171,7 +1252,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_pressure_plate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodButtonRecipe",
@@ -1184,7 +1266,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_button_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Petrified_WoodStickRecipe",
@@ -1197,7 +1280,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/petrified_wood_stick_recipe.json"
         ]
-      }
+      },
+      "path": "~/Petrified Wood/Recipes"
     },
     {
       "name": "Radiation",
@@ -1210,7 +1294,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/damage_type/radiation.json"
         ]
-      }
+      },
+      "path": "~/Damage types"
     },
     {
       "name": "Irradied",
@@ -1223,7 +1308,8 @@
         "files": [
           "src/main/java/net/mcreator/tarferssminecraftimprovement/potion/IrradiedMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "Irradiedgiving",
@@ -1258,7 +1344,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures/Effects"
     },
     {
       "name": "LeadIngot",
@@ -1272,7 +1359,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadIngotItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_ingot.json"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadOre",
@@ -1283,12 +1371,13 @@
       "registry_name": "lead_ore",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/LeadOreBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/lead_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/lead_ore.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/LeadOreBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_ore.json"
         ]
-      }
+      },
+      "path": "~/Lead/Blocks"
     },
     {
       "name": "LeadBlock",
@@ -1299,12 +1388,13 @@
       "registry_name": "lead_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/LeadBlockBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_block.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/lead_block.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/lead_block.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/lead_block.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/LeadBlockBlock.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/lead_block.json"
         ]
-      }
+      },
+      "path": "~/Lead/Blocks"
     },
     {
       "name": "LeadBlockCraft",
@@ -1317,7 +1407,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_block_craft.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadIngotCrafting",
@@ -1330,7 +1421,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_ingot_crafting.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadIngotSmelt",
@@ -1343,7 +1435,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_ingot_smelt.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadIngotBlast",
@@ -1356,7 +1449,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_ingot_blast.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "AmethystBasaltOreDrop",
@@ -1369,7 +1463,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/amethyst_basalt_ore.json"
         ]
-      }
+      },
+      "path": "~/Loot tables"
     },
     {
       "name": "AmethystCalciteOreDrop",
@@ -1382,7 +1477,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/amethyst_calcite_ore.json"
         ]
-      }
+      },
+      "path": "~/Loot tables"
     },
     {
       "name": "LeadPickaxe",
@@ -1393,10 +1489,11 @@
       "registry_name": "lead_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadPickaxeItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_pickaxe.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_pickaxe.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadPickaxeItem.java"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadAxe",
@@ -1410,7 +1507,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadAxeItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_axe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadSword",
@@ -1421,10 +1519,11 @@
       "registry_name": "lead_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadSwordItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_sword.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_sword.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadShovel",
@@ -1435,10 +1534,11 @@
       "registry_name": "lead_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_shovel.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadShovelItem.java"
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadShovelItem.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_shovel.json"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadHoe",
@@ -1452,7 +1552,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadHoeItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_hoe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadPickaxeRecipe",
@@ -1465,7 +1566,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadAxeRecipe",
@@ -1478,7 +1580,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadSwordRecipe",
@@ -1491,7 +1594,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadShovelRecipe",
@@ -1504,7 +1608,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadHoeRecipe",
@@ -1517,7 +1622,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadArmor",
@@ -1528,13 +1634,14 @@
       "registry_name": "lead_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_helmet.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_boots.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_leggings.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_chestplate.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/LeadArmorItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_boots.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_helmet.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_armor_chestplate.json"
         ]
-      }
+      },
+      "path": "~/Lead/Items"
     },
     {
       "name": "LeadArmorHelmetRecipe",
@@ -1547,7 +1654,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadArmorChestplateRecipe",
@@ -1560,7 +1668,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadArmorLeggingsRecipe",
@@ -1573,7 +1682,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "LeadArmorBootsRecipe",
@@ -1586,7 +1696,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/lead_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Lead/Recipes"
     },
     {
       "name": "BauxiteOre",
@@ -1597,15 +1708,16 @@
       "registry_name": "bauxite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/bauxite_ore_biome_modifier.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/bauxite_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/bauxite_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/bauxite_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/bauxite_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/bauxite_ore.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/BauxiteOreBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/bauxite_ore.json"
+          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/bauxite_ore_biome_modifier.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/bauxite_ore.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/bauxite_ore.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Blocks"
     },
     {
       "name": "BauxiteDeepslateOre",
@@ -1617,14 +1729,15 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/bauxite_deepslate_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/bauxite_deepslate_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/bauxite_deepslate_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/bauxite_deepslate_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/bauxite_deepslate_ore_biome_modifier.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/bauxite_deepslate_ore.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/BauxiteDeepslateOreBlock.java"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/bauxite_deepslate_ore.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/BauxiteDeepslateOreBlock.java",
+          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/bauxite_deepslate_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/bauxite_deepslate_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/bauxite_deepslate_ore.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Blocks"
     },
     {
       "name": "AluminiumIngot",
@@ -1638,7 +1751,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumIngotItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_ingot.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "BauxiteOreSmelting",
@@ -1651,7 +1765,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/bauxite_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "BauxiteDeepslateOreSmelting",
@@ -1664,7 +1779,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/bauxite_deepslate_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "BauxiteOreBlasting",
@@ -1677,7 +1793,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/bauxite_ore_blasting.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "BauxiteDeepslateOreBlasting",
@@ -1690,7 +1807,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/bauxite_deepslate_ore_blasting.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AcidMobplayerCollidesBlock",
@@ -1713,7 +1831,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures/Fluids"
     },
     {
       "name": "Acid",
@@ -1724,15 +1843,16 @@
       "registry_name": "acid",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/fluid/AcidFluid.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/acid.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AcidItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/acid_bucket.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/AcidBlock.java",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/fluid/types/AcidFluidType.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/acid_bucket.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/acid.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/fluid/AcidFluid.java"
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AcidItem.java",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/block/AcidBlock.java"
         ]
-      }
+      },
+      "path": "~/Fluids"
     },
     {
       "name": "AluminiumPickaxe",
@@ -1743,10 +1863,11 @@
       "registry_name": "aluminium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumPickaxeItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_pickaxe.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_pickaxe.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumPickaxeItem.java"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "AluminiumAxe",
@@ -1760,7 +1881,8 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_axe.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumAxeItem.java"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "AluminiumSword",
@@ -1774,7 +1896,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumSwordItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_sword.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "AluminiumShovel",
@@ -1788,7 +1911,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumShovelItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_shovel.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "AluminiumHoe",
@@ -1802,7 +1926,8 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_hoe.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumHoeItem.java"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "AluminiumPickaxeRecipe",
@@ -1815,7 +1940,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumAxeRecipe",
@@ -1828,7 +1954,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumSwordRecipe",
@@ -1841,7 +1968,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumShovelRecipe",
@@ -1854,7 +1982,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumHoeRecipe",
@@ -1867,7 +1996,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumArmor",
@@ -1879,12 +2009,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_armor_boots.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumArmorItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_armor_leggings.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_armor_helmet.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_armor_chestplate.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_armor_helmet.json"
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumArmorItem.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Items"
     },
     {
       "name": "AluminiumArmorHelmetRecipe",
@@ -1897,7 +2028,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumArmorChestplateRecipe",
@@ -1910,7 +2042,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumArmorLeggingsRecipe",
@@ -1923,7 +2056,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AluminiumArmorBootsRecipe",
@@ -1936,7 +2070,8 @@
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Aluminium/Recipes"
     },
     {
       "name": "AntiRadAluminiumArmor",
@@ -1947,13 +2082,14 @@
       "registry_name": "anti_rad_aluminium_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_leggings.json",
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AntiRadAluminiumArmorItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_helmet.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_chestplate.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_boots.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_boots.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_helmet.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_aluminium_armor_leggings.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AntiRadAluminiumArmorItem.java"
         ]
-      }
+      },
+      "path": "~/Anti-rad"
     },
     {
       "name": "AntiRadRubyArmor",
@@ -1964,13 +2100,14 @@
       "registry_name": "anti_rad_ruby_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AntiRadRubyArmorItem.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_ruby_armor_chestplate.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_ruby_armor_helmet.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_ruby_armor_leggings.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AntiRadRubyArmorItem.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_ruby_armor_boots.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_ruby_armor_leggings.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_ruby_armor_chestplate.json"
         ]
-      }
+      },
+      "path": "~/Anti-rad"
     }
   ],
   "variable_elements": [],
@@ -2058,7 +2195,142 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Aluminium",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Fluids",
+        "children": []
+      },
+      {
+        "name": "Amethyst",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Enchants",
+        "children": []
+      },
+      {
+        "name": "Ruby",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Old Recipes",
+        "children": []
+      },
+      {
+        "name": "Lead",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Anti-rad",
+        "children": []
+      },
+      {
+        "name": "Petrified Wood",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Damage types",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Loot tables",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "Effects",
+            "children": []
+          },
+          {
+            "name": "Fluids",
+            "children": []
+          },
+          {
+            "name": "Enchants",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "tarferss_minecraft_improvement",
