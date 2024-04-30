@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "tarferss_minecraft_improvement:ruby_block",
-    "tarferss_minecraft_improvement:ruby_ore",
-    "tarferss_minecraft_improvement:ruby_deepslate_ore",
-    "tarferss_minecraft_improvement:amethyst_basalt_ore",
-    "tarferss_minecraft_improvement:amethyst_calcite_ore",
-    "tarferss_minecraft_improvement:lead_ore",
+    "tarferss_minecraft_improvement:bauxite_deepslate_ore",
     "tarferss_minecraft_improvement:bauxite_ore",
-    "tarferss_minecraft_improvement:bauxite_deepslate_ore"
+    "tarferss_minecraft_improvement:lead_ore",
+    "tarferss_minecraft_improvement:amethyst_calcite_ore",
+    "tarferss_minecraft_improvement:amethyst_basalt_ore",
+    "tarferss_minecraft_improvement:ruby_deepslate_ore",
+    "tarferss_minecraft_improvement:ruby_block",
+    "tarferss_minecraft_improvement:ruby_ore"
   ]
 }

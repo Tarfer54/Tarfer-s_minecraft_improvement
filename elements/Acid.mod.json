@@ -1,12 +1,12 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "fluid",
   "definition": {
     "name": "Acid",
     "bucketName": "Acid Bucket",
     "textureStill": "acid_still",
     "textureFlowing": "acid_flow",
-    "tintType": "No tint",
+    "tintType": "Grass",
     "canMultiply": true,
     "flowRate": 3,
     "levelDecrease": 1,
@@ -40,7 +40,7 @@
     "tickRate": 0,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "GRASS",
     "onEntityCollides": {
       "name": "AcidMobplayerCollidesBlock"
     }

@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 3,
+    "group": "thermite",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:AluminiumIngot"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:AluminiumPowder"
+    },
+    "name": "aluminium_powder_crushing",
+    "namespace": "mod"
+  }
+}

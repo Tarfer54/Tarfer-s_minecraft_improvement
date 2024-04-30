@@ -3,7 +3,7 @@
     {
       "name": "Ruby",
       "type": "item",
-      "sortid": 6,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby",
@@ -18,7 +18,7 @@
     {
       "name": "RubyOre",
       "type": "block",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore",
@@ -26,7 +26,8 @@
         "files": [
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyOreBlock.java",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/ruby_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/ruby_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/neoforge/biome_modifier/ruby_ore_biome_modifier.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/ruby_ore.json",
@@ -44,6 +45,7 @@
       "registry_name": "ruby_block",
       "metadata": {
         "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/ruby_block.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_block.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyBlockBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_block.json",
@@ -55,7 +57,7 @@
     {
       "name": "RubyOreBlockRecipe",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_block_recipe",
@@ -69,7 +71,7 @@
     {
       "name": "RubyBlockOreRecipe",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_block_ore_recipe",
@@ -83,7 +85,7 @@
     {
       "name": "RubyOreSmelting",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_smelting",
@@ -97,7 +99,7 @@
     {
       "name": "RubyOreBlasting",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_blasting",
@@ -111,17 +113,18 @@
     {
       "name": "RubyDeepslateOre",
       "type": "block",
-      "sortid": 8,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_deepslate_ore",
       "metadata": {
         "files": [
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/ruby_deepslate_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/neoforge/biome_modifier/ruby_deepslate_ore_biome_modifier.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/ruby_deepslate_ore.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/RubyDeepslateOreBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/ruby_deepslate_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/ruby_deepslate_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/ruby_deepslate_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/ruby_deepslate_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/ruby_deepslate_ore.json"
         ]
@@ -131,7 +134,7 @@
     {
       "name": "Ruby_toolsPickaxe",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_pickaxe",
@@ -146,7 +149,7 @@
     {
       "name": "Ruby_toolsAxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_axe",
@@ -161,7 +164,7 @@
     {
       "name": "Ruby_toolsSword",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_sword",
@@ -206,7 +209,7 @@
     {
       "name": "Ruby_toolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_pickaxe_recipe",
@@ -220,7 +223,7 @@
     {
       "name": "Ruby_toolsAxeRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_axe_recipe",
@@ -234,7 +237,7 @@
     {
       "name": "Ruby_toolsSwordRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_sword_recipe",
@@ -248,7 +251,7 @@
     {
       "name": "Ruby_toolsShovelRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_shovel_recipe",
@@ -262,7 +265,7 @@
     {
       "name": "Ruby_toolsHoeRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tools_hoe_recipe",
@@ -276,7 +279,7 @@
     {
       "name": "EnchantedGoldenApple",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchanted_golden_apple",
@@ -290,7 +293,7 @@
     {
       "name": "Saddle",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "saddle",
@@ -304,7 +307,7 @@
     {
       "name": "LeatherHorseArmor",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather_horse_armor",
@@ -318,7 +321,7 @@
     {
       "name": "IronHorseArmor",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_horse_armor",
@@ -332,7 +335,7 @@
     {
       "name": "GoldHorseArmor",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_horse_armor",
@@ -346,7 +349,7 @@
     {
       "name": "DiamondHorseArmor",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_horse_armor",
@@ -360,7 +363,7 @@
     {
       "name": "Trident",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trident",
@@ -374,7 +377,7 @@
     {
       "name": "DeepslateRubyOreBlasting",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_ruby_ore_blasting",
@@ -388,7 +391,7 @@
     {
       "name": "DeepslateRubyOreSmelting",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_ruby_ore_smelting",
@@ -402,7 +405,7 @@
     {
       "name": "AmethystBasaltOre",
       "type": "block",
-      "sortid": 41,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_basalt_ore",
@@ -410,7 +413,7 @@
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/amethyst_basalt_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/amethyst_basalt_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/amethyst_basalt_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/neoforge/biome_modifier/amethyst_basalt_ore_biome_modifier.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/amethyst_basalt_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/amethyst_basalt_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_basalt_ore.json",
@@ -422,7 +425,7 @@
     {
       "name": "AmethystCalciteOre",
       "type": "block",
-      "sortid": 43,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_calcite_ore",
@@ -432,8 +435,8 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/amethyst_calcite_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/amethyst_calcite_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/amethyst_calcite_ore.json",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/amethyst_calcite_ore_biome_modifier.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/amethyst_calcite_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/neoforge/biome_modifier/amethyst_calcite_ore_biome_modifier.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/amethyst_calcite_ore.json"
         ]
       },
@@ -442,7 +445,7 @@
     {
       "name": "Amethyst_toolsPickaxe",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_pickaxe",
@@ -457,7 +460,7 @@
     {
       "name": "Amethyst_toolsAxe",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_axe",
@@ -472,7 +475,7 @@
     {
       "name": "Amethyst_toolsSword",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_sword",
@@ -487,7 +490,7 @@
     {
       "name": "Amethyst_toolsShovel",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_shovel",
@@ -502,7 +505,7 @@
     {
       "name": "Amethyst_toolsHoe",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_hoe",
@@ -517,7 +520,7 @@
     {
       "name": "Amethyst_toolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_pickaxe_recipe",
@@ -531,7 +534,7 @@
     {
       "name": "Amethyst_toolsAxeRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_axe_recipe",
@@ -545,7 +548,7 @@
     {
       "name": "Amethyst_toolsSwordRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_sword_recipe",
@@ -559,7 +562,7 @@
     {
       "name": "Amethyst_toolsShovelRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_shovel_recipe",
@@ -573,7 +576,7 @@
     {
       "name": "Amethyst_toolsHoeRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_tools_hoe_recipe",
@@ -587,7 +590,7 @@
     {
       "name": "BasaltAmethystOreSmelting",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basalt_amethyst_ore_smelting",
@@ -601,7 +604,7 @@
     {
       "name": "BasaltAmethystOreBlasting",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basalt_amethyst_ore_blasting",
@@ -615,7 +618,7 @@
     {
       "name": "CalciteAmethystOreBlasting",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calcite_amethyst_ore_blasting",
@@ -629,7 +632,7 @@
     {
       "name": "CalciteAmethystOreSmelting",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calcite_amethyst_ore_smelting",
@@ -643,7 +646,7 @@
     {
       "name": "MediumAmethystBud",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "medium_amethyst_bud",
@@ -657,7 +660,7 @@
     {
       "name": "LargeAmethystBud",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_amethyst_bud",
@@ -671,7 +674,7 @@
     {
       "name": "AmethystCluster",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_cluster",
@@ -685,7 +688,7 @@
     {
       "name": "AmethystShard",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_shard",
@@ -699,7 +702,7 @@
     {
       "name": "AmethystIngot",
       "type": "item",
-      "sortid": 62,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_ingot",
@@ -714,7 +717,7 @@
     {
       "name": "AmethystIngotCraft",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_ingot_craft",
@@ -728,7 +731,7 @@
     {
       "name": "RubyArmorArmor",
       "type": "armor",
-      "sortid": 68,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_armor",
@@ -746,7 +749,7 @@
     {
       "name": "RubyArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_armor_helmet_recipe",
@@ -760,7 +763,7 @@
     {
       "name": "RubyArmorArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_armor_chestplate_recipe",
@@ -774,7 +777,7 @@
     {
       "name": "RubyArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_armor_leggings_recipe",
@@ -788,7 +791,7 @@
     {
       "name": "RubyArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_armor_boots_recipe",
@@ -802,7 +805,7 @@
     {
       "name": "AmethystArmor",
       "type": "armor",
-      "sortid": 69,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor",
@@ -820,7 +823,7 @@
     {
       "name": "AmethystArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_helmet_recipe",
@@ -834,7 +837,7 @@
     {
       "name": "AmethystArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_chestplate_recipe",
@@ -848,7 +851,7 @@
     {
       "name": "AmethystArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_leggings_recipe",
@@ -862,7 +865,7 @@
     {
       "name": "AmethystArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_boots_recipe",
@@ -876,7 +879,7 @@
     {
       "name": "Incision",
       "type": "enchantment",
-      "sortid": 74,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "incision",
@@ -890,7 +893,7 @@
     {
       "name": "Bleeding",
       "type": "potioneffect",
-      "sortid": 75,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bleeding",
@@ -904,7 +907,7 @@
     {
       "name": "BleedingTickActifSurEffet",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bleeding_tick_actif_sur_effet",
@@ -928,7 +931,7 @@
     {
       "name": "IncisionActive",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "incision_active",
@@ -948,7 +951,7 @@
     {
       "name": "IrradiatedLands",
       "type": "biome",
-      "sortid": 78,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "irradiated_lands",
@@ -964,12 +967,13 @@
     {
       "name": "Petrified_WoodWood",
       "type": "block",
-      "sortid": 79,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_wood",
       "metadata": {
         "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_wood.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_wood.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_wood.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_wood.json",
@@ -981,7 +985,7 @@
     {
       "name": "Petrified_WoodLog",
       "type": "block",
-      "sortid": 80,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_log",
@@ -990,6 +994,7 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_log.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_log.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodLogBlock.java",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_log.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_log.json"
         ]
       },
@@ -998,7 +1003,7 @@
     {
       "name": "Petrified_WoodPlanks",
       "type": "block",
-      "sortid": 81,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_planks",
@@ -1007,7 +1012,8 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_planks.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_planks.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodPlanksBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_planks.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_planks.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_planks.json"
         ]
       },
       "path": "~/Petrified Wood/Blocks"
@@ -1015,7 +1021,7 @@
     {
       "name": "Petrified_WoodLeaves",
       "type": "block",
-      "sortid": 82,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_leaves",
@@ -1023,6 +1029,7 @@
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_leaves.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodLeavesBlock.java",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_leaves.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_leaves.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_leaves.json"
         ]
@@ -1032,7 +1039,7 @@
     {
       "name": "Petrified_WoodStairs",
       "type": "block",
-      "sortid": 83,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_stairs",
@@ -1040,6 +1047,7 @@
         "files": [
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodStairsBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_stairs.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_stairs.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs_outer.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs_inner.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_stairs.json",
@@ -1051,7 +1059,7 @@
     {
       "name": "Petrified_WoodSlab",
       "type": "block",
-      "sortid": 84,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_slab",
@@ -1061,6 +1069,7 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab_full.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_slab.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_slab.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_slab.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_slab_top.json"
         ]
@@ -1070,7 +1079,7 @@
     {
       "name": "Petrified_WoodFence",
       "type": "block",
-      "sortid": 85,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_fence",
@@ -1081,7 +1090,8 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_fence.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_fence.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodFenceBlock.java",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_inventory.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_inventory.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_fence.json"
         ]
       },
       "path": "~/Petrified Wood/Blocks"
@@ -1089,7 +1099,7 @@
     {
       "name": "Petrified_WoodFenceGate",
       "type": "block",
-      "sortid": 86,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_fence_gate",
@@ -1100,6 +1110,7 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_wall.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_fence_gate.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_wall_open.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_fence_gate.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodFenceGateBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_fence_gate_open.json"
         ]
@@ -1109,7 +1120,7 @@
     {
       "name": "Petrified_WoodPressurePlate",
       "type": "block",
-      "sortid": 87,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_pressure_plate",
@@ -1119,7 +1130,8 @@
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_pressure_plate.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_pressure_plate.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_pressure_plate_down.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_pressure_plate.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/petrified_wood_pressure_plate.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_pressure_plate.json"
         ]
       },
       "path": "~/Petrified Wood/Blocks"
@@ -1127,12 +1139,13 @@
     {
       "name": "Petrified_WoodButton",
       "type": "block",
-      "sortid": 88,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_button",
       "metadata": {
         "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/petrified_wood_button.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/petrified_wood_button_pressed.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/petrified_wood_button.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/Petrified_WoodButtonBlock.java",
@@ -1144,23 +1157,9 @@
       "path": "~/Petrified Wood/Blocks"
     },
     {
-      "name": "Petrified_WoodItemsTag",
-      "type": "tag",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "petrified_wood_items_tag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/items/petrified_wood_log.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
       "name": "Petrified_WoodWoodRecipe",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_wood_recipe",
@@ -1174,7 +1173,7 @@
     {
       "name": "Petrified_WoodPlanksRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_planks_recipe",
@@ -1188,7 +1187,7 @@
     {
       "name": "Petrified_WoodStairsRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_stairs_recipe",
@@ -1202,7 +1201,7 @@
     {
       "name": "Petrified_WoodSlabRecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_slab_recipe",
@@ -1216,7 +1215,7 @@
     {
       "name": "Petrified_WoodFenceRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_fence_recipe",
@@ -1230,7 +1229,7 @@
     {
       "name": "Petrified_WoodFenceGateRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_fence_gate_recipe",
@@ -1244,7 +1243,7 @@
     {
       "name": "Petrified_WoodPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_pressure_plate_recipe",
@@ -1258,7 +1257,7 @@
     {
       "name": "Petrified_WoodButtonRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_button_recipe",
@@ -1272,7 +1271,7 @@
     {
       "name": "Petrified_WoodStickRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_wood_stick_recipe",
@@ -1286,7 +1285,7 @@
     {
       "name": "Radiation",
       "type": "damagetype",
-      "sortid": 99,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiation",
@@ -1300,7 +1299,7 @@
     {
       "name": "Irradied",
       "type": "potioneffect",
-      "sortid": 100,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "irradied",
@@ -1314,7 +1313,7 @@
     {
       "name": "Irradiedgiving",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "irradiedgiving",
@@ -1350,7 +1349,7 @@
     {
       "name": "LeadIngot",
       "type": "item",
-      "sortid": 102,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ingot",
@@ -1365,7 +1364,7 @@
     {
       "name": "LeadOre",
       "type": "block",
-      "sortid": 103,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ore",
@@ -1374,7 +1373,8 @@
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/LeadOreBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/lead_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/lead_ore.json",
-          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_ore.json"
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/lead_ore.json"
         ]
       },
       "path": "~/Lead/Blocks"
@@ -1382,7 +1382,7 @@
     {
       "name": "LeadBlock",
       "type": "block",
-      "sortid": 104,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_block",
@@ -1390,6 +1390,7 @@
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/lead_block.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/lead_block.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/lead_block.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/LeadBlockBlock.java",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/lead_block.json"
         ]
@@ -1399,7 +1400,7 @@
     {
       "name": "LeadBlockCraft",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_block_craft",
@@ -1413,7 +1414,7 @@
     {
       "name": "LeadIngotCrafting",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ingot_crafting",
@@ -1427,7 +1428,7 @@
     {
       "name": "LeadIngotSmelt",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ingot_smelt",
@@ -1441,7 +1442,7 @@
     {
       "name": "LeadIngotBlast",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ingot_blast",
@@ -1455,7 +1456,7 @@
     {
       "name": "AmethystBasaltOreDrop",
       "type": "loottable",
-      "sortid": 109,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_basalt_ore_drop",
@@ -1469,7 +1470,7 @@
     {
       "name": "AmethystCalciteOreDrop",
       "type": "loottable",
-      "sortid": 110,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_calcite_ore_drop",
@@ -1483,7 +1484,7 @@
     {
       "name": "LeadPickaxe",
       "type": "tool",
-      "sortid": 116,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_pickaxe",
@@ -1498,7 +1499,7 @@
     {
       "name": "LeadAxe",
       "type": "tool",
-      "sortid": 117,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_axe",
@@ -1513,7 +1514,7 @@
     {
       "name": "LeadSword",
       "type": "tool",
-      "sortid": 118,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_sword",
@@ -1528,7 +1529,7 @@
     {
       "name": "LeadShovel",
       "type": "tool",
-      "sortid": 119,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_shovel",
@@ -1543,7 +1544,7 @@
     {
       "name": "LeadHoe",
       "type": "tool",
-      "sortid": 120,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_hoe",
@@ -1558,7 +1559,7 @@
     {
       "name": "LeadPickaxeRecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_pickaxe_recipe",
@@ -1572,7 +1573,7 @@
     {
       "name": "LeadAxeRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_axe_recipe",
@@ -1586,7 +1587,7 @@
     {
       "name": "LeadSwordRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_sword_recipe",
@@ -1600,7 +1601,7 @@
     {
       "name": "LeadShovelRecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_shovel_recipe",
@@ -1614,7 +1615,7 @@
     {
       "name": "LeadHoeRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_hoe_recipe",
@@ -1628,7 +1629,7 @@
     {
       "name": "LeadArmor",
       "type": "armor",
-      "sortid": 121,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_armor",
@@ -1646,7 +1647,7 @@
     {
       "name": "LeadArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_armor_helmet_recipe",
@@ -1660,7 +1661,7 @@
     {
       "name": "LeadArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_armor_chestplate_recipe",
@@ -1674,7 +1675,7 @@
     {
       "name": "LeadArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_armor_leggings_recipe",
@@ -1688,7 +1689,7 @@
     {
       "name": "LeadArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_armor_boots_recipe",
@@ -1702,17 +1703,18 @@
     {
       "name": "BauxiteOre",
       "type": "block",
-      "sortid": 126,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/neoforge/biome_modifier/bauxite_ore_biome_modifier.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/bauxite_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/bauxite_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/bauxite_ore.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/BauxiteOreBlock.java",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/bauxite_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/bauxite_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/bauxite_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/bauxite_ore.json"
         ]
@@ -1722,7 +1724,7 @@
     {
       "name": "BauxiteDeepslateOre",
       "type": "block",
-      "sortid": 127,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_deepslate_ore",
@@ -1730,9 +1732,10 @@
         "files": [
           "src/main/resources/assets/tarferss_minecraft_improvement/blockstates/bauxite_deepslate_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/item/bauxite_deepslate_ore.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/loot_tables/blocks/bauxite_deepslate_ore.json",
           "src/main/resources/assets/tarferss_minecraft_improvement/models/block/bauxite_deepslate_ore.json",
           "src/main/java/net/mcreator/tarferssminecraftimprovement/block/BauxiteDeepslateOreBlock.java",
-          "src/main/resources/data/tarferss_minecraft_improvement/forge/biome_modifier/bauxite_deepslate_ore_biome_modifier.json",
+          "src/main/resources/data/tarferss_minecraft_improvement/neoforge/biome_modifier/bauxite_deepslate_ore_biome_modifier.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/placed_feature/bauxite_deepslate_ore.json",
           "src/main/resources/data/tarferss_minecraft_improvement/worldgen/configured_feature/bauxite_deepslate_ore.json"
         ]
@@ -1742,7 +1745,7 @@
     {
       "name": "AluminiumIngot",
       "type": "item",
-      "sortid": 128,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_ingot",
@@ -1757,7 +1760,7 @@
     {
       "name": "BauxiteOreSmelting",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_ore_smelting",
@@ -1771,7 +1774,7 @@
     {
       "name": "BauxiteDeepslateOreSmelting",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_deepslate_ore_smelting",
@@ -1785,7 +1788,7 @@
     {
       "name": "BauxiteOreBlasting",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_ore_blasting",
@@ -1799,7 +1802,7 @@
     {
       "name": "BauxiteDeepslateOreBlasting",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_deepslate_ore_blasting",
@@ -1813,7 +1816,7 @@
     {
       "name": "AcidMobplayerCollidesBlock",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "acid_mobplayer_collides_block",
@@ -1837,7 +1840,7 @@
     {
       "name": "Acid",
       "type": "fluid",
-      "sortid": 134,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "acid",
@@ -1857,7 +1860,7 @@
     {
       "name": "AluminiumPickaxe",
       "type": "tool",
-      "sortid": 140,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_pickaxe",
@@ -1872,7 +1875,7 @@
     {
       "name": "AluminiumAxe",
       "type": "tool",
-      "sortid": 141,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_axe",
@@ -1887,7 +1890,7 @@
     {
       "name": "AluminiumSword",
       "type": "tool",
-      "sortid": 142,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_sword",
@@ -1902,7 +1905,7 @@
     {
       "name": "AluminiumShovel",
       "type": "tool",
-      "sortid": 143,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_shovel",
@@ -1917,7 +1920,7 @@
     {
       "name": "AluminiumHoe",
       "type": "tool",
-      "sortid": 144,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_hoe",
@@ -1932,7 +1935,7 @@
     {
       "name": "AluminiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_pickaxe_recipe",
@@ -1946,7 +1949,7 @@
     {
       "name": "AluminiumAxeRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_axe_recipe",
@@ -1960,7 +1963,7 @@
     {
       "name": "AluminiumSwordRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_sword_recipe",
@@ -1974,7 +1977,7 @@
     {
       "name": "AluminiumShovelRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_shovel_recipe",
@@ -1988,7 +1991,7 @@
     {
       "name": "AluminiumHoeRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_hoe_recipe",
@@ -2002,7 +2005,7 @@
     {
       "name": "AluminiumArmor",
       "type": "armor",
-      "sortid": 145,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_armor",
@@ -2020,7 +2023,7 @@
     {
       "name": "AluminiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_armor_helmet_recipe",
@@ -2034,7 +2037,7 @@
     {
       "name": "AluminiumArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_armor_chestplate_recipe",
@@ -2048,7 +2051,7 @@
     {
       "name": "AluminiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_armor_leggings_recipe",
@@ -2062,7 +2065,7 @@
     {
       "name": "AluminiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminium_armor_boots_recipe",
@@ -2076,7 +2079,7 @@
     {
       "name": "AntiRadAluminiumArmor",
       "type": "armor",
-      "sortid": 150,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anti_rad_aluminium_armor",
@@ -2094,7 +2097,7 @@
     {
       "name": "AntiRadRubyArmor",
       "type": "armor",
-      "sortid": 151,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anti_rad_ruby_armor",
@@ -2108,24 +2111,205 @@
         ]
       },
       "path": "~/Anti-rad"
+    },
+    {
+      "name": "AntiRadAmethystArmor",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad_amethyst_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_amethyst_armor_helmet.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_amethyst_armor_chestplate.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AntiRadAmethystArmorItem.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_amethyst_armor_leggings.json",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/anti_rad_amethyst_armor_boots.json"
+        ]
+      },
+      "path": "~/Anti-rad"
+    },
+    {
+      "name": "IronPowder",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/iron_powder.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/IronPowderItem.java"
+        ]
+      },
+      "path": "~/Purifing process/Items"
+    },
+    {
+      "name": "AluminiumPowder",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/aluminium_powder.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/AluminiumPowderItem.java"
+        ]
+      },
+      "path": "~/Purifing process/Items"
+    },
+    {
+      "name": "IronPowderCrushing",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_powder_crushing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/recipes/iron_powder_crushing.json"
+        ]
+      },
+      "path": "~/Purifing process/Recipes"
+    },
+    {
+      "name": "AluminiumPowderCrushing",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_powder_crushing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/recipes/aluminium_powder_crushing.json"
+        ]
+      },
+      "path": "~/Purifing process/Recipes"
+    },
+    {
+      "name": "Thermite",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/item/ThermiteItem.java",
+          "src/main/resources/assets/tarferss_minecraft_improvement/models/item/thermite.json"
+        ]
+      },
+      "path": "~/Purifing process/Items"
+    },
+    {
+      "name": "ThermiteCrafting",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermite_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tarferss_minecraft_improvement/recipes/thermite_crafting.json"
+        ]
+      },
+      "path": "~/Purifing process/Recipes"
+    },
+    {
+      "name": "ThermiteFuel",
+      "type": "itemextension",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermite_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Purifing process/Items"
+    },
+    {
+      "name": "Uraniumparticle",
+      "type": "particle",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tarferss_minecraft_improvement/particles/uraniumparticle.json",
+          "src/main/java/net/mcreator/tarferssminecraftimprovement/client/particle/UraniumparticleParticle.java"
+        ]
+      },
+      "path": "~/Uranium/Particles"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Petrified_WoodLeaves"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:LeadOre",
+      "~CUSTOM:AmethystCalciteOre",
+      "~CUSTOM:AmethystBasaltOre",
+      "~CUSTOM:RubyDeepslateOre",
+      "~CUSTOM:RubyBlock",
+      "~CUSTOM:RubyOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:BauxiteDeepslateOre",
+      "~CUSTOM:BauxiteOre"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Acid"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BauxiteDeepslateOre",
+      "~CUSTOM:BauxiteOre",
+      "~CUSTOM:LeadOre",
+      "~CUSTOM:AmethystCalciteOre",
+      "~CUSTOM:AmethystBasaltOre",
+      "~CUSTOM:RubyDeepslateOre",
+      "~CUSTOM:RubyBlock",
+      "~CUSTOM:RubyOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Petrified_WoodPlanks",
+      "~CUSTOM:Petrified_WoodLog",
+      "~CUSTOM:Petrified_WoodWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Petrified_WoodSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Petrified_WoodFence"
+    ],
+    "ITEMS:forge:petrified_wood_log": [
+      "CUSTOM:Petrified_WoodWood",
+      "CUSTOM:Petrified_WoodLog"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Petrified_WoodStairs"
+    ]
+  },
   "language_map": {
     "en_us": {
       "fluid.tarferss_minecraft_improvement.acid": "Acid",
       "item.tarferss_minecraft_improvement.ruby_armor_armor_helmet": "Ruby Helmet",
       "block.tarferss_minecraft_improvement.petrified_wood_fence": "Petrified_Wood Fence",
-      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_helmet": "Aluminium Helmet",
+      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_helmet": "Anti-Rad Aluminium Helmet",
       "item.tarferss_minecraft_improvement.ruby_tools_axe": "Ruby Axe",
       "block.tarferss_minecraft_improvement.petrified_wood_button": "Petrified_Wood Button",
       "block.tarferss_minecraft_improvement.petrified_wood_fence_gate": "Petrified_Wood Fence Gate",
       "block.tarferss_minecraft_improvement.petrified_wood_log": "Petrified_Wood Log",
+      "item.tarferss_minecraft_improvement.aluminium_powder": "Aluminium Powder",
       "item.tarferss_minecraft_improvement.lead_armor_chestplate": "Lead Chestplate",
       "item.tarferss_minecraft_improvement.aluminium_ingot": "Aluminium Ingot",
       "block.tarferss_minecraft_improvement.petrified_wood_pressure_plate": "Petrified_Wood Pressure Plate",
-      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_chestplate": "Aluminium Chestplate",
+      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_chestplate": "Anti-Rad Aluminium Chestplate",
       "item.tarferss_minecraft_improvement.amethyst_ingot": "Amethyst Ingot",
       "item.tarferss_minecraft_improvement.aluminium_armor_boots": "Aluminium Boots",
       "item.tarferss_minecraft_improvement.aluminium_sword": "Aluminium Sword",
@@ -2133,8 +2317,10 @@
       "item.tarferss_minecraft_improvement.ruby_tools_shovel": "Ruby Shovel",
       "item.tarferss_minecraft_improvement.aluminium_hoe": "Aluminium Hoe",
       "death.attack.radiation.player": "%1$s died while trying to escape %2$s",
-      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_chestplate": "Ruby Chestplate",
+      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_chestplate": "Anti-Rad Ruby Chestplate",
       "item.tarferss_minecraft_improvement.lead_pickaxe": "Lead Pickaxe",
+      "item.tarferss_minecraft_improvement.iron_powder": "Iron Powder",
+      "item.tarferss_minecraft_improvement.anti_rad_amethyst_armor_leggings": "Anti-Rad Amethyst Leggings",
       "item.tarferss_minecraft_improvement.lead_axe": "Lead Axe",
       "block.tarferss_minecraft_improvement.acid": "Acid",
       "item.tarferss_minecraft_improvement.aluminium_pickaxe": "Aluminium Pickaxe",
@@ -2147,7 +2333,7 @@
       "item.tarferss_minecraft_improvement.amethyst_tools_sword": "Amethyst Sword",
       "item.tarferss_minecraft_improvement.lead_ingot": "Lead Ingot",
       "block.tarferss_minecraft_improvement.petrified_wood_slab": "Petrified_Wood Slab",
-      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_helmet": "Ruby Helmet",
+      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_helmet": "Anti-Rad Ruby Helmet",
       "item.tarferss_minecraft_improvement.ruby_tools_hoe": "Ruby Hoe",
       "item.tarferss_minecraft_improvement.ruby": "Ruby",
       "block.tarferss_minecraft_improvement.lead_block": "Lead Block",
@@ -2155,9 +2341,9 @@
       "item.tarferss_minecraft_improvement.amethyst_tools_hoe": "Amethyst Hoe",
       "death.attack.radiation": "%1$s got irradied",
       "block.tarferss_minecraft_improvement.bauxite_ore": "Bauxite Ore",
-      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_leggings": "Ruby Leggings",
+      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_leggings": "Anti-Rad Ruby Leggings",
       "block.tarferss_minecraft_improvement.petrified_wood_leaves": "Petrified_Wood Leaves",
-      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_leggings": "Aluminium Leggings",
+      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_leggings": "Anti-Rad Aluminium Leggings",
       "block.tarferss_minecraft_improvement.petrified_wood_planks": "Petrified_Wood Planks",
       "item.tarferss_minecraft_improvement.aluminium_shovel": "Aluminium Shovel",
       "block.tarferss_minecraft_improvement.petrified_wood_wood": "Petrified_Wood Wood",
@@ -2167,11 +2353,15 @@
       "item.tarferss_minecraft_improvement.lead_armor_leggings": "Lead Leggings",
       "item.tarferss_minecraft_improvement.ruby_armor_armor_boots": "Ruby Boots",
       "item.tarferss_minecraft_improvement.lead_shovel": "Lead Shovel",
+      "item.tarferss_minecraft_improvement.thermite": "Thermite",
+      "item.tarferss_minecraft_improvement.anti_rad_amethyst_armor_chestplate": "Anti-Rad Amethyst Chestplate",
+      "item.tarferss_minecraft_improvement.anti_rad_amethyst_armor_boots": "Anti-Rad Amethyst Boots",
       "death.attack.radiation.item": "%1$s was killed by %2$s using %3$s",
       "item.tarferss_minecraft_improvement.lead_hoe": "Lead Hoe",
       "effect.tarferss_minecraft_improvement.irradied": "Irradied",
+      "item.tarferss_minecraft_improvement.anti_rad_amethyst_armor_helmet": "Anti-Rad Amethyst Helmet",
       "item.tarferss_minecraft_improvement.amethyst_armor_leggings": "Amethyst Leggings",
-      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_boots": "Ruby Boots",
+      "item.tarferss_minecraft_improvement.anti_rad_ruby_armor_boots": "Anti-Rad Ruby Boots",
       "block.tarferss_minecraft_improvement.ruby_deepslate_ore": "Deepslate Ruby Ore",
       "item.tarferss_minecraft_improvement.amethyst_armor_boots": "Amethyst Boots",
       "item.tarferss_minecraft_improvement.aluminium_armor_helmet": "Aluminium Helmet",
@@ -2182,7 +2372,7 @@
       "item.tarferss_minecraft_improvement.lead_armor_helmet": "Lead Helmet",
       "block.tarferss_minecraft_improvement.lead_ore": "Lead Ore",
       "enchantment.tarferss_minecraft_improvement.incision": "Incision",
-      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_boots": "Aluminium Boots",
+      "item.tarferss_minecraft_improvement.anti_rad_aluminium_armor_boots": "Anti-Rad Aluminium Boots",
       "block.tarferss_minecraft_improvement.amethyst_calcite_ore": "Basalt Amethyst Ore",
       "item.tarferss_minecraft_improvement.aluminium_armor_chestplate": "Aluminium Chestplate",
       "item.tarferss_minecraft_improvement.amethyst_tools_pickaxe": "Amethyst Pickaxe",
@@ -2329,6 +2519,48 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Purifing process",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Prodedures",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Uranium",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Particles",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -2339,19 +2571,17 @@
     "author": "Tarfer 54, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "crafttweaker",
+      "curios_api",
       "jei"
     ],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.20.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.tarferssminecraftimprovement",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.tarferssminecraftimprovement"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202400117319
 }

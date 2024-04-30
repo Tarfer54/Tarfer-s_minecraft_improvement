@@ -13,17 +13,12 @@ public class BleedingMobEffect extends MobEffect {
 	}
 
 	@Override
-	public String getDescriptionId() {
-		return "effect.tarferss_minecraft_improvement.bleeding";
+	public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
+		return true;
 	}
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
 		BleedingTickActifSurEffetProcedure.execute(entity.level(), entity);
-	}
-
-	@Override
-	public boolean isDurationEffectTick(int duration, int amplifier) {
-		return true;
 	}
 }

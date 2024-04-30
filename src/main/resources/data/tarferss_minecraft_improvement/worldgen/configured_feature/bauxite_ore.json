@@ -30,7 +30,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:diorite"
+            "Name": "minecraft:andesite"
           }
         },
         "state": {
@@ -41,7 +41,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:andesite"
+            "Name": "minecraft:diorite"
           }
         },
         "state": {

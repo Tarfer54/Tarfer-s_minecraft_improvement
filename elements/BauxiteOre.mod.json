@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "bauxite_ore",
@@ -122,7 +122,7 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "#is_overworld"
+        "value": "#minecraft:is_overworld"
       }
     ],
     "blocksToReplace": [
@@ -133,10 +133,10 @@
         "value": "Blocks.STONE#1"
       },
       {
-        "value": "Blocks.STONE#3"
+        "value": "Blocks.STONE#5"
       },
       {
-        "value": "Blocks.STONE#5"
+        "value": "Blocks.STONE#3"
       }
     ],
     "generationShape": "TRIANGLE",

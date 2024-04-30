@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "thermite",
+  "count": 3,
+  "ingredient": {
+    "item": "tarferss_minecraft_improvement:aluminium_ingot"
+  },
+  "result": "tarferss_minecraft_improvement:aluminium_powder"
+}

@@ -1,23 +1,23 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "aluminium_head",
+    "textureHelmet": "antirad_aluminium_head",
     "enableBody": true,
-    "textureBody": "aluminium_body",
+    "textureBody": "antirad_amuminium_body",
     "enableLeggings": true,
-    "textureLeggings": "aluminium_leggings",
+    "textureLeggings": "antirad_aluminium_leggings",
     "enableBoots": true,
-    "textureBoots": "aluminium_boots",
+    "textureBoots": "antirad_aluminium_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
     "armorTextureFile": "anti-rad_aluminium_",
-    "helmetName": "Aluminium Helmet",
-    "bodyName": "Aluminium Chestplate",
-    "leggingsName": "Aluminium Leggings",
-    "bootsName": "Aluminium Boots",
+    "helmetName": "Anti-Rad Aluminium Helmet",
+    "bodyName": "Anti-Rad Aluminium Chestplate",
+    "leggingsName": "Anti-Rad Aluminium Leggings",
+    "bootsName": "Anti-Rad Aluminium Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

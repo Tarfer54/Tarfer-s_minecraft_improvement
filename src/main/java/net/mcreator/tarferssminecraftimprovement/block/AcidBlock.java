@@ -17,7 +17,7 @@ import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImproveme
 public class AcidBlock extends LiquidBlock {
 	public AcidBlock() {
 		super(() -> TarferssMinecraftImprovementModFluids.ACID.get(),
-				BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+				BlockBehaviour.Properties.of().mapColor(MapColor.GRASS).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tarferss_minecraft_improvement:item/rubyarmor_leggings"
+    "layer0": "tarferss_minecraft_improvement:item/antirad_ruby_leggings"
   }
 }

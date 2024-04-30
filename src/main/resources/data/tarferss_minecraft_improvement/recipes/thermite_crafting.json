@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "thermite",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tarferss_minecraft_improvement:aluminium_powder"
+    },
+    {
+      "item": "tarferss_minecraft_improvement:aluminium_powder"
+    },
+    {
+      "item": "tarferss_minecraft_improvement:aluminium_powder"
+    },
+    {
+      "item": "tarferss_minecraft_improvement:iron_powder"
+    },
+    {
+      "item": "tarferss_minecraft_improvement:iron_powder"
+    },
+    {
+      "item": "tarferss_minecraft_improvement:iron_powder"
+    }
+  ],
+  "result": {
+    "item": "tarferss_minecraft_improvement:thermite",
+    "count": 1
+  }
+}

@@ -4,10 +4,10 @@
  */
 package net.mcreator.tarferssminecraftimprovement.init;
 
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,20 +21,17 @@ public class TarferssMinecraftImprovementModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(TarferssMinecraftImprovementModBlocks.RUBY_BLOCK.get().asItem());
 			tabData.accept(TarferssMinecraftImprovementModBlocks.LEAD_BLOCK.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(TarferssMinecraftImprovementModBlocks.PETRIFIED_WOOD_FENCE_GATE.get().asItem());
 			tabData.accept(TarferssMinecraftImprovementModBlocks.PETRIFIED_WOOD_PRESSURE_PLATE.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_TOOLS_SWORD.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.AMETHYST_TOOLS_SWORD.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_SWORD.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_SWORD.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_ARMOR_ARMOR_HELMET.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_ARMOR_ARMOR_CHESTPLATE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_ARMOR_ARMOR_LEGGINGS.get());
@@ -43,12 +40,10 @@ public class TarferssMinecraftImprovementModTabs {
 			tabData.accept(TarferssMinecraftImprovementModItems.AMETHYST_ARMOR_CHESTPLATE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.AMETHYST_ARMOR_LEGGINGS.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.AMETHYST_ARMOR_BOOTS.get());
-			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_SWORD.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_ARMOR_HELMET.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_ARMOR_CHESTPLATE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_ARMOR_LEGGINGS.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_ARMOR_BOOTS.get());
-			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_SWORD.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_ARMOR_HELMET.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_ARMOR_CHESTPLATE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_ARMOR_LEGGINGS.get());
@@ -61,16 +56,19 @@ public class TarferssMinecraftImprovementModTabs {
 			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_RUBY_ARMOR_CHESTPLATE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_RUBY_ARMOR_LEGGINGS.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_RUBY_ARMOR_BOOTS.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_AMETHYST_ARMOR_HELMET.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_AMETHYST_ARMOR_CHESTPLATE.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_AMETHYST_ARMOR_LEGGINGS.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.ANTI_RAD_AMETHYST_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.AMETHYST_INGOT.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.LEAD_INGOT.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_INGOT.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(TarferssMinecraftImprovementModItems.IRON_POWDER.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.ALUMINIUM_POWDER.get());
+			tabData.accept(TarferssMinecraftImprovementModItems.THERMITE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(TarferssMinecraftImprovementModBlocks.RUBY_ORE.get().asItem());
 			tabData.accept(TarferssMinecraftImprovementModBlocks.RUBY_DEEPSLATE_ORE.get().asItem());
 			tabData.accept(TarferssMinecraftImprovementModBlocks.AMETHYST_BASALT_ORE.get().asItem());
@@ -81,9 +79,7 @@ public class TarferssMinecraftImprovementModTabs {
 			tabData.accept(TarferssMinecraftImprovementModBlocks.BAUXITE_ORE.get().asItem());
 			tabData.accept(TarferssMinecraftImprovementModBlocks.BAUXITE_DEEPSLATE_ORE.get().asItem());
 			tabData.accept(TarferssMinecraftImprovementModItems.ACID_BUCKET.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_TOOLS_AXE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_TOOLS_PICKAXE.get());
 			tabData.accept(TarferssMinecraftImprovementModItems.RUBY_TOOLS_SHOVEL.get());

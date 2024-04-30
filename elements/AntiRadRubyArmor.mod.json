@@ -1,23 +1,23 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "rubyarmor_head",
+    "textureHelmet": "antirad_ruby_head",
     "enableBody": true,
-    "textureBody": "rubyarmor_body",
+    "textureBody": "antirad_ruby_body",
     "enableLeggings": true,
-    "textureLeggings": "rubyarmor_leggings",
+    "textureLeggings": "antirad_ruby_leggings",
     "enableBoots": true,
-    "textureBoots": "rubyarmor_boots",
+    "textureBoots": "antirad_ruby_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
     "armorTextureFile": "anti-rad_ruby_",
-    "helmetName": "Ruby Helmet",
-    "bodyName": "Ruby Chestplate",
-    "leggingsName": "Ruby Leggings",
-    "bootsName": "Ruby Boots",
+    "helmetName": "Anti-Rad Ruby Helmet",
+    "bodyName": "Anti-Rad Ruby Chestplate",
+    "leggingsName": "Anti-Rad Ruby Leggings",
+    "bootsName": "Anti-Rad Ruby Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

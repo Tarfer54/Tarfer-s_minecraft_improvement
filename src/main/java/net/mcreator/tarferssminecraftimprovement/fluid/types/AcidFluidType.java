@@ -1,12 +1,16 @@
 
 package net.mcreator.tarferssminecraftimprovement.fluid.types;
 
-import net.minecraftforge.fluids.FluidType;
-import net.minecraftforge.common.SoundActions;
-import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
+import net.neoforged.neoforge.fluids.FluidType;
+import net.neoforged.neoforge.common.SoundActions;
+import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
 
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.BiomeColors;
 
 import java.util.function.Consumer;
 
@@ -29,6 +33,16 @@ public class AcidFluidType extends FluidType {
 			@Override
 			public ResourceLocation getFlowingTexture() {
 				return FLOWING_TEXTURE;
+			}
+
+			@Override
+			public int getTintColor() {
+				return -6506636;
+			}
+
+			@Override
+			public int getTintColor(FluidState state, BlockAndTintGetter world, BlockPos pos) {
+				return BiomeColors.getAverageGrassColor(world, pos) | 0xFF000000;
 			}
 		});
 	}

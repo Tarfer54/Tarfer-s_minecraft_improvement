@@ -1,7 +1,7 @@
 
 package net.mcreator.tarferssminecraftimprovement.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
@@ -15,8 +15,8 @@ import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImproveme
 import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModFluidTypes;
 import net.mcreator.tarferssminecraftimprovement.init.TarferssMinecraftImprovementModBlocks;
 
-public abstract class AcidFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> TarferssMinecraftImprovementModFluidTypes.ACID_TYPE.get(), () -> TarferssMinecraftImprovementModFluids.ACID.get(),
+public abstract class AcidFluid extends BaseFlowingFluid {
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> TarferssMinecraftImprovementModFluidTypes.ACID_TYPE.get(), () -> TarferssMinecraftImprovementModFluids.ACID.get(),
 			() -> TarferssMinecraftImprovementModFluids.FLOWING_ACID.get()).explosionResistance(100f).tickRate(3).bucket(() -> TarferssMinecraftImprovementModItems.ACID_BUCKET.get())
 			.block(() -> (LiquidBlock) TarferssMinecraftImprovementModBlocks.ACID.get());
 
